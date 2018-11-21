@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.kryptoblocks.walletone">
+
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.CAMERA" />
+
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name="com.kryptoblocks.walletone.Splash">
+
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+
+       <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <data android:scheme="@string/fb_login_protocol_scheme" />
+       </intent-filter>
+
+      <intent-filter>
+      <data android:mimeType="application/json"/>
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+      </intent-filter>
+
+    </activity>
+    <activity android:name="com.kryptoblocks.walletone.LoginActivity" />
+    <activity android:name="com.kryptoblocks.walletone.MainActivity" />
+    <activity android:name="com.kryptoblocks.walletone.SendActivity" />
+    <activity android:name="com.kryptoblocks.walletone.ReceiveActivity" />
+    <activity android:name="com.kryptoblocks.walletone.RedeemAddressActivity" />
+    <activity android:name="com.kryptoblocks.walletone.Payment_Receive_Activity" />
+    <activity android:name="com.kryptoblocks.walletone.RegistrationActivity"/>
+    <activity android:name="com.kryptoblocks.walletone.OTPActivity"/>
+    <activity android:name="com.kryptoblocks.walletone.scanner.FullScannerActivity"/>
+
+    <meta-data android:name="com.facebook.sdk.ApplicationId"
+      android:value="@string/facebook_app_id"/>
+
+    <!-- Activities -->
+    <activity
+      android:name="com.kryptoblocks.walletone.verification.failure.VerificationFailedActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/AppTheme.NoActionBar" />
+
+    <activity
+      android:name="com.kryptoblocks.walletone.verification.settings.SettingsActivity"
+      android:exported="true"
+      android:label="@string/title_activity_settings"
+      android:parentActivityName="com.kryptoblocks.walletone.verification.VerificationActivity"
+      android:screenOrientation="portrait">
+      <meta-data
+        android:name="android.support.PARENT_ACTIVITY"
+        android:value="com.kryptoblocks.walletone.verification.VerificationActivity" />
+    </activity>
+
+    <activity
+      android:name="com.kryptoblocks.walletone.verification.success.VerificationSuccessfulActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/AppTheme.NoActionBar" />
+
+    <activity
+      android:name="com.kryptoblocks.walletone.verification.VerificationActivity"
+      android:screenOrientation="portrait"
+      android:theme="@style/AppTheme.NoActionBar" />
+
+
+
+  </application>
+
+</manifest>

@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kryptoblocks.walletone.fragments.PortfolioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:weightSum="3">
+
+            <Button
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/Week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weekly"
+                android:background="@drawable/amt_display_view"
+                android:layout_weight="1"/>
+            <Button
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/FortNight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="FortNightly"
+                android:background="@drawable/amt_display_view"
+                android:layout_weight="1"/>
+            <Button
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Monthly"
+                android:background="@drawable/amt_display_view"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/piechart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/curved_linear_layout"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="520dp" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/curved_linear_layout"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="379dp" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/line_chart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/curved_linear_layout"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="379dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

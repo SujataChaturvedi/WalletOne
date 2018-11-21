@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_myprofile"
+        android:title="Month" />
+    <item
+        android:id="@+id/nav_portfolio"
+        android:title="Year" />
+    <item
+        android:id="@+id/nav_friends"
+        android:title="Amount" />
+</menu>

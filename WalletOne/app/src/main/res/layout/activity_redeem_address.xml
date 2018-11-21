@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gift_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kryptoblocks.walletone.RedeemAddressActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_Send"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receiver's address"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+      <!--  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:background="@drawable/rounded_edittext_border">-->
+        <EditText
+            android:id="@+id/frnds_address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:hint="Address"
+            android:gravity="left"
+            android:padding="10dp"
+            android:background="@drawable/rounded_edittext_border"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2.5" />
+           <!-- <ImageView
+                android:id="@+id/img_view_scan"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:src="@drawable/nav_scan"
+                android:layout_weight="0.5"
+                android:layout_gravity="center"
+                />-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter amount"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp" />
+        <EditText
+            android:id="@+id/edittext_sendamount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:hint="Amount"
+            android:gravity="left"
+            android:padding="10dp"
+            android:background="@drawable/rounded_edittext_border"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.12" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description(Optional)"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp" />
+        <EditText
+            android:id="@+id/edittext_description"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:hint="Description"
+            android:gravity="left"
+            android:padding="10dp"
+            android:background="@drawable/rounded_edittext_border"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.12" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/Proceed_toPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:background="@drawable/button"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:theme="@style/PrimaryButton"
+        />
+</LinearLayout>

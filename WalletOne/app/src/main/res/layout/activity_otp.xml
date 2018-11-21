@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_otp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kryptoblocks.walletone.OTPActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_OTP"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:weightSum="4">
+        <TextView
+            android:id="@+id/tv_otp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your One Time Password(OTP)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_weight="3"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/et_otp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="OTP"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:weightSum="2">
+
+        <Button
+        android:id="@+id/button_submit_otp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:background="@drawable/button"/>
+        <TextView
+
+            android:id="@+id/tv_resend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/resend_link"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:gravity="left"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+
+</LinearLayout>
+</LinearLayout>

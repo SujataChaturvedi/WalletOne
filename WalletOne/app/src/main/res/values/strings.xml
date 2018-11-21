@@ -1,0 +1,76 @@
+<resources>
+  <string name="app_name">WalletOne</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="loading">Loading....</string>
+  <string name="title_activity_registration">RegistrationActivity</string>
+  //For facebook
+  <string name="facebook_app_id">509835662726043</string>
+  <string name="fb_login_protocol_scheme">fb509835662726043</string>
+
+  //Link
+  <string name="resend_link"><u>Resend OTP?</u> </string>
+  <string name="toolbarOTP">OTP</string>
+  <string name="toolbarSend">Send</string>
+  <string name="toolbarMain">Wallet</string>
+  <string name="toolbarReceive">Receive</string>
+  <string name="toolbarScan">Send</string>
+
+
+
+  <!-- Bar Code String -->
+  <string name="donts">What to Avoid</string>
+  <string name="first_ones">\u2022 Low quality images. Instead make your products pop!</string>
+  <string name="second_twos">\u2022 Grammar and spelling mistakes</string>
+  <string name="third_threes">\u2022 Offering too many rewards. Keep it simple for your customers.</string>
+  <string name="flash_on">Flash On</string>
+  <string name="flash_off">Flash Off</string>
+  <string name="auto_focus_on">AutoFocus On</string>
+  <string name="auto_focus_off">AutoFocus Off</string>
+  <string name="formats">Fomats</string>
+  <string name="select_camera">Select Camera</string>
+  <string name="ok_button">Ok</string>
+  <string name="cancel_button">Cancel</string>
+  <string name="choose_formats">Choose Format</string>
+  <string name="scanner_activity">Scanner Activity</string>
+
+  <!-- 2-Step Verification Strings -->
+
+  <string name="verify_phone_hint">Phone number</string>
+  <string name="verify_pin_hint">Verification Pin</string>
+  <string name="invalid_phone_number">Invalid phone number</string>
+  <string name="verify_state_sms_sent">Verification Pin Sent</string>
+  <string name="verify_state_sms_received">Pin received</string>
+  <string name="verify_state_success">Phone Number Successfully verified</string>
+  <string name="verify_state_error">Error while verifying phone number</string>
+  <string name="verify_title_label">Twilio Verification SDK</string>
+  <string name="verify_welcome_label">Enter your phone number</string>
+  <string name="phone_number_hint">Phone Number</string>
+  <string name="verify_button_label">Verify</string>
+  <string name="verify_via_sms_button_label">SMS</string>
+  <string name="verify_via_call_button_label">Call</string>
+  <string name="settings_invalid_endpoint">Invalid endpoint</string>
+  <string name="progress_bar_label">Verifying</string>
+
+  <!-- Strings related to Successful verification-->
+  <string name="number_verified_success_label">Number Verified!</string>
+  <string name="number_verified_text">Your identity has been successfully verified</string>
+
+  <!-- Strings related to Failed verification-->
+  <string name="verify_failed_title_label">Verification Failed</string>
+  <string name="verify_failed_message_label">Verify your phone number or enter a new one, then try SMS or Phone Call verification</string>
+  <string name="verification_code_hint">4-Digit Verification Code</string>
+
+  <!-- Strings related to Settings -->
+  <string name="menu_settings_label">Settings</string>
+  <string name="title_activity_settings">Settings</string>
+  <string name="token_endpoint_label">Token Endpoint</string>
+  <string name="default_endpoint">https://verification-process.herokuapp.com/verify/token</string>
+  <string name="verify_via_label">Verify via</string>
+
+
+  //dialog
+  <string name="add_alert">Add a new account</string>
+
+</resources>

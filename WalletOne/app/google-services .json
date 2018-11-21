@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "740168548675",
+    "project_id": "firebase-walletone"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740168548675:android:52b39546a054ca9a",
+        "android_client_info": {
+          "package_name": "com.kryptoblocks.newwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740168548675-921ci2dkmd7pok2n5h94umfi72nefn2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAJYLRS4FGEk-ESWzIBhTs3zU5zs8qdWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740168548675:android:fbf17e4a077a9ab9",
+        "android_client_info": {
+          "package_name": "com.kryptoblocks.walletone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740168548675-0bfo2fgppo545hl9j3629k2m76kgr1ca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kryptoblocks.walletone",
+            "certificate_hash": "a67b5e097a8b3d5a3eec0a229d097a2f3d3d5bcd"
+          }
+        },
+        {
+          "client_id": "740168548675-921ci2dkmd7pok2n5h94umfi72nefn2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAJYLRS4FGEk-ESWzIBhTs3zU5zs8qdWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
